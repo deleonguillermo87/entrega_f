@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Gestor de datos</title>
+
+    <link rel="stylesheet" href="../entrega final/styles.css">
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Gestor de datos</h1>
+
+        <form id="data-form">
+
+        <!-- NOMBRE -->
+        <label for="product-name">
+            Nombre del producto:
+        </label>
+
+        <input 
+            type="text"
+            id="product-name"
+            placeholder="Ej: Laptop Gamer"
+            required
+        />
+
+        <!-- PRECIO -->
+        <label for="product-price">
+            Precio:
+        </label>
+
+        <input 
+            type="number"
+            id="product-price"
+            placeholder="Ej: 2500"
+            required
+        />
+
+        <!-- DESCRIPCION -->
+        <label for="product-description">
+            Descripción:
+        </label>
+
+        <input 
+            type="text"
+            id="product-description"
+            placeholder="Describe el producto"
+            required
+        />
+
+        <!-- BOTON -->
+        <button id ="btn"type="submit">
+            Agregar producto
+        </button>
+
+        </form>
+
+        <!-- BOTON API -->
+        <button id="sync-btn" type="button">
+        Sincronizar con la API
+        </button>
+
+        <!-- LISTA -->
+        <section>
+
+        <h2>Lista de elementos</h2>
+
+        <ul id="items-list"></ul>
+
+        </section>
+
+    </main>
+
+    <script src="../entrega final/app.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,115 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f9;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+/* CONTENEDOR */
+main{
+    background: white;
+    width: 100%;
+    max-width: 550px;
+    padding: 35px;
+    border-radius: 16px;S
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* TITULO */
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+/* SUBTITULO */
+h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* FORMULARIO */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* LABEL */
+label{
+    font-weight: bold;
+    color: #444;
+}
+
+/* INPUTS */
+input{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* EFECTO INPUT */
+input:focus{
+    border-color: #4f46e5;
+    box-shadow: 0 0 5px rgba(79,70,229,0.3);
+}
+
+/* BOTONES */
+button{
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    background: #4f46e5;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* HOVER BOTON */
+button:hover{
+    background: #3730a3;
+}
+
+/* BOTON API */
+#sync-btn{
+    margin-top: 20px;
+    width: 100%;
+    background: #059669;
+}
+
+#sync-btn:hover{
+    background: #047857;
+}
+
+/* LISTA */
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* ITEMS */
+ul li{
+    background: #eef2ff;
+    padding: 14px;
+    border-radius: 10px;
+    border-left: 5px solid #4f46e5;
+    color: #222;
+}
